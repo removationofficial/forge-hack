@@ -1,0 +1,126 @@
+Overview / summary
+
+Forge is a Gen AI buildathon exclusively for students from IITs, NITs, IIITs, and BITS. Team up to build a real-world AI solution, and showcase your creation.
+
+How it works:
+
+Build: Collaborate with your team to create a Gen AI solution.
+Showcase: The top 10 teams present at the grand finale, where judges pick two winners and the audience picks one favourite.
+
+No Prior Experience Building with AI? Join our beginner-friendly online workshops to learn Gen AI fundamentals and get hands-on guidance to start building.
+
+No coding experience. No tech background required. Just bring your ideas and the intent to build!
+Code	Theme	Domain
+Theme 1	Civic Pulse, Digital Governance & Public Information	
+Theme 2	Climate, Resource Infrastructure & Global Supply Resilience	
+Theme 1
+Civic Pulse, Digital Governance & Public Information
+
+This track focuses on democratizing information, modernizing public service delivery, and bridging the gap between citizens, regulatory policy, and public institutions. It also addresses rapid legislative changes, civic movements, digital infrastructure growth, viral misinformation, and complex regulatory compliance hurdles.
+Track Concept & Explanation
+
+This track focuses on democratizing information, modernizing public service delivery, and bridging the gap between citizens, regulatory policy, and public institutions. In an era of rapid legislative changes, civic movements, digital infrastructure growth, and viral misinformation, citizens struggle to access verified facts or navigate public services, while businesses face complex regulatory compliance hurdles.
+
+Solutions in this track leverage a mix of generative AI, multimodal data processing, browser-use automation, and autonomous workflows to digest legal notifications, verify media credibility, streamline bureaucratic processes, and build accessible citizen tools.
+Problem Spectrum
+
+    Multilingual Policy, Rights & Scheme Explainer: An intelligent system that ingests government notifications, welfare policy drafts, or municipal laws and converts them into plain, regional-language voice explainers highlighting exact rights, eligibility, and real-world impacts for citizens and small businesses.
+    Transparent Civic Grievance & Infrastructure Triage System: An open platform where citizens submit visual or audio reports of localized civic issues (e.g., road/bridge damage, pollution, water leaks). The system automatically evaluates severity, routes issues to relevant authorities, and maintains public accountability dashboards.
+    Autonomous Public Service & Bureaucracy Execution Agent: An autonomous web/browser agent (browser-use / Playwright) that ingests a citizen's background profile and requested service (e.g., student scholarships, license renewals, government subsidy claims), navigates complex non-API legacy web portals, populates application forms, handles UI obstacles, and returns completed tracking receipts.
+    Real-Time Fact-Verification & Deepfake Audit Engine: A high-throughput verification platform that ingests live social feeds, multimodal media, and viral claims, cross-referencing them against verified database registries, knowledge graphs, and forensic models to detect synthetic media and trace misinformation provenance.
+
+Theme 2
+Climate, Resource Infrastructure & Global Supply Resilience
+
+This track addresses systemic operational and environmental challenges including extreme weather shifts, agricultural yield instability, supply chain disruptions, energy grid pressure, and resource depletion.
+Track Concept & Explanation
+
+This track addresses systemic operational and environmental challenges—including extreme weather shifts (El Niño/La Niña, flash floods, heatwaves), agricultural yield instability, supply chain disruptions, energy grid pressure, and resource depletion. Unpredictable climate events and supply bottlenecks severely impact agricultural yields, urban infrastructure, water/energy reserves, and global logistics.
+
+Solutions in this track combine predictive AI models (geospatial analytics, time-series forecasting, vision models) with autonomous agent execution engines (automated logistics, dynamic resource routing, multi-system orchestration) to predict risks, optimize resource distribution, and automate emergency response workflows.
+Problem Spectrum
+
+    Multilingual Agritech & Resource Advisory Assistant: A lightweight conversational/voice assistant that ingests weather API forecasts, market mandi prices, and local soil metrics to deliver plain-language, crop-level protective advice and planting/harvesting schedules to farmers.
+    Predictive Climate & Micro-Location Yield Engine: A multimodal intelligence pipeline that combines satellite imagery (Copernicus/ISRO), soil sensor feeds, and historical weather/monsoon datasets to forecast micro-climate risks (such as localized droughts or unseasonal rainfall) and output risk mitigation plans.
+    Smart Grid & Urban Resource Allocation Controller: A low-latency control agent designed for low-compute edge hardware or IoT devices to monitor local water reserves, solar micro-grids, or urban traffic during extreme heatwaves or power surges, dynamically reallocating resources to prevent localized blackouts or shortages.
+    Autonomous Emergency Response & Supply Chain Logistics Swarm: An execution engine for emergency climate or supply disruptions that continuously monitors weather/fleet telemetry, queries regional supplier inventory APIs, dynamically recalculates safe transit routes around affected zones, and dispatches automated relief orders end-to-end.
+
+Submission guidelines & rules
+📝 Hackathon Project Submission Template
+1. Problem Statement
+
+Target Issue & Context: Clearly define the specific real-world problem being addressed within your chosen track
+
+Target Audience: Who is directly impacted by this problem
+2. Solution Description
+
+High-Level Overview: Describe how your solution solves the problem using a combination of AI reasoning and/or autonomous agent workflows.
+
+Technical Architecture: Briefly explain the core tech stack, key models, datasets used, and system design
+3. Prototype Link
+
+Live Deployment / Hosted App: URL to your live, working web app, mobile build, or deployed endpoint (e.g., Vercel, Streamlit, Hugging Face Spaces live URL).
+4. Demo Video
+
+Video Link: Link to a 2–3 minute video demonstration (Loom, YouTube, Google Drive).
+
+Requirements: Must show an end-to-end live demonstration of the working system, highlighting real-time AI reasoning, tool usage, or agentic execution under realistic conditions.
+5. GitHub Repository Link
+
+Repository URL: Link to your public GitHub/GitLab repository.
+
+Requirements: Clean README.md with setup/installation instructions, architecture diagram/flowchart, and all source code/configuration files.
+6. Presentation / Pitch Deck
+
+Deck Link: Link to your 5–7 slide pitch deck (Google Slides, Canva, PDF).
+Recommended Structure
+
+    Title & Team Overview
+    The Problem & Real-World Context
+    The Solution & Key Features
+    Technical System Architecture & Innovation
+    Future Roadmap & Live Demo Summary
+
+Evaluation Guidelines & Rules
+
+By registering and participating in the hackathon, all teams agree to abide by the following evaluation pillars, technical standards, and strict disqualification policies.
+1. Scoring Rubric (100 Points Total)
+
+Projects will be evaluated by our judging panel across four core pillars:
+Technical Architecture & Engineering Depth (20 Points)
+
+Code Quality & Modularity: Clean, well-structured codebase with efficient API integration and low latency.
+
+Depth of Implementation: Solutions must go beyond superficial frontend wrappers or basic API templates. We expect genuine technical execution (e.g., custom RAG pipelines, geospatial models, browser automation loops, or complex state graphs).
+AI Reasoning & Agentic Execution (25 Points)
+
+Autonomy & Workflow Resilience: For agentic builds—how effectively does the system plan, execute multi-step tool calls, handle errors, and self-correct?
+
+Model Accuracy & Guardrails: For AI builds—precision of reasoning and retrieval, minimization of hallucinations, and robust source attribution.
+Problem Relevance, Impact & USP (25 Points)
+
+Real-World Value: Meaningful execution addressing actual civic, governance, climate, or supply chain challenges for affected populations or enterprise stakeholders.
+
+Unique Selling Proposition (USP): What makes this approach distinct? Clear differentiation from existing standard solutions, off-the-shelf chatbots, or traditional non-AI software.
+
+Innovation & Scalability: Novel problem formulation, original technical architecture, and long-term viability.
+Live Demonstration & Robustness (30 Points)
+
+End-to-End Execution: The app must run live during evaluation without crashing or breaking.
+
+Edge Case Resilience: Graceful handling of unexpected user inputs, missing data, or unpredictable network states.
+2. Strict Technical Compliance Rules
+
+No Dummy Data (Zero-Tolerance Policy): Hardcoded JSON files, static mock datasets, or fake placeholder numbers are strictly prohibited. Applications must connect to active backends and consume real-time APIs, live databases, or official open datasets (e.g., IMD, ISRO Bhuvan, Data.gov.in).
+
+Open Source & Boilerplate Policy: Reusing open-source libraries, SDKs, or starter boilerplate templates is permitted. However, all core logic, AI models, and agent workflows must be integrated and built during the hackathon window.
+
+Code Ownership & Explanation: Every team member must thoroughly understand the project architecture. If questioned during judging, members must be able to explain the codebase, data flow, and AI logic independently.
+3. Grounds for Immediate Disqualification
+
+Teams will be disqualified instantly for any of the following violations:
+
+    Using fake, static, or hardcoded mock data instead of a live backend/real-time API.
+    Plagiarism, copying code from another team, or submitting a pre-existing project built before the event
+    Presenting pre-recorded video demos or mockups disguised as a functional live application.
+    Any breach of the event code of conduct, ethical guidelines, or unauthorized assistance.
